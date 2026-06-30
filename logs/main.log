@@ -1,0 +1,24 @@
+2026-06-30 09:21:29,448 - okx_ai_trader.main - INFO - 机器人启动，当前模式: 模拟盘
+2026-06-30 09:21:30,130 - okx_ai_trader.main - WARNING - 资金费率获取失败: 404 Client Error: Not Found for url: https://www.okx.com/api/v5/market/funding-rate?instId=BTC-USDT-SWAP&limit=1
+2026-06-30 09:21:30,131 - okx_ai_trader.main - INFO - 策略评分: 25，等级: 放弃，原因: 成交量增加超过 150%
+2026-06-30 09:21:30,131 - okx_ai_trader.main - INFO - 当前无满足条件的做空信号
+2026-06-30 09:21:30,132 - okx_ai_trader.main - INFO - 数据库摘要: {'total_trades': 0, 'total_pnl': 0.0}
+2026-06-30 11:22:25,490 - okx_ai_trader.main - INFO - 使用模拟余额: 15.0
+2026-06-30 11:22:25,491 - okx_ai_trader.main - INFO - 机器人启动，当前模式: 实盘
+2026-06-30 11:22:26,043 - okx_ai_trader.main - WARNING - 资金费率获取失败: 404 Client Error: Not Found for url: https://www.okx.com/api/v5/market/funding-rate?instId=BTC-USDT-SWAP&limit=1
+2026-06-30 11:22:26,044 - okx_ai_trader.main - INFO - 策略评分: 0，等级: 放弃，原因: 无明显做空特征
+2026-06-30 11:22:26,045 - okx_ai_trader.main - INFO - 当前无满足条件的做空信号
+2026-06-30 11:22:26,045 - okx_ai_trader.main - INFO - 数据库摘要: {'total_trades': 0, 'total_pnl': 0.0}
+2026-06-30 11:22:26,046 - okx_ai_trader.main - INFO - 每日报告: {'date': '2026-06-30', 'total_trades': 0, 'winning_trades': 0, 'losing_trades': 0, 'win_rate': 0.0, 'total_pnl': 0.0, 'daily_summary': '无交易记录'}
+2026-06-30 11:22:26,785 - okx_ai_trader.main - INFO - Telegram 发送成功: 每日报告: 无交易记录
+2026-06-30 13:42:46,305 - okx_ai_trader.main - INFO - 使用模拟余额: 15.0
+2026-06-30 13:42:46,305 - okx_ai_trader.main - INFO - 机器人启动，当前模式: 实盘
+2026-06-30 13:42:46,897 - okx_ai_trader.main - WARNING - 资金费率获取失败: 404 Client Error: Not Found for url: https://www.okx.com/api/v5/market/funding-rate?instId=BTC-USDT-SWAP&limit=1
+2026-06-30 13:42:46,898 - okx_ai_trader.main - INFO - 策略评分: 25，等级: 放弃，原因: 成交量增加超过 150%
+2026-06-30 13:42:46,899 - okx_ai_trader.main - INFO - 当前无满足条件的做空信号
+2026-06-30 13:42:46,899 - okx_ai_trader.main - INFO - 数据库摘要: {'total_trades': 0, 'total_pnl': 0.0}
+2026-06-30 13:42:46,900 - okx_ai_trader.main - INFO - 每日报告: {'date': '2026-06-30', 'total_trades': 0, 'winning_trades': 0, 'losing_trades': 0, 'win_rate': 0.0, 'total_pnl': 0.0, 'daily_summary': '无交易记录'}
+2026-06-30 13:42:48,122 - okx_ai_trader.main - WARNING - Telegram 发送失败（第 1 次）: 400 Client Error: Bad Request for url: https://api.telegram.org/bot8888841885:AAHvNJbHASJvES--yj9XMhr1aci6dofsFgU/sendMessage
+2026-06-30 13:42:50,086 - okx_ai_trader.main - WARNING - Telegram 发送失败（第 2 次）: 400 Client Error: Bad Request for url: https://api.telegram.org/bot8888841885:AAHvNJbHASJvES--yj9XMhr1aci6dofsFgU/sendMessage
+2026-06-30 13:42:53,072 - okx_ai_trader.main - WARNING - Telegram 发送失败（第 3 次）: 400 Client Error: Bad Request for url: https://api.telegram.org/bot8888841885:AAHvNJbHASJvES--yj9XMhr1aci6dofsFgU/sendMessage
+2026-06-30 13:42:56,073 - okx_ai_trader.main - ERROR - Telegram 发送最终失败: 每日报告: 无交易记录
